@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  paddgin: 0px;
+  background: pink;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  width: 15vw;
+  height: 5vh;
+  margin: 20px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 4px 3px 3px black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button:hover {
+  transform: scale(1.1);
+}
+img {
+  width: 15vw;
+}
+h1,
+h2 {
+  margin: 10px;
+  padding: 10px;
+}
+iframe {
+  border-radius: 12px;
+}
+@media (max-width: 720px) {
+  button {
+    width: 50vw;
+  }
+  img {
+    width: 20vw;
+  }
+}
